@@ -1,0 +1,11 @@
+name: Test Action
+
+on: [push]  # ⭐ Ye missing tha - trigger define karna zaroori hai
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # ⭐ Ye bhi missing tha - machine define karni zaroori hai
+    
+    steps:
+      - name: 24f2007692@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
